@@ -1,0 +1,20 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/res/res.js",
+		"libs/modules/tween/tween.js",
+		"promise/bin/promise.js"
+	],
+	"game": [
+		"bin-debug/LoadingUI.js",
+		"bin-debug/Main.js",
+		"bin-debug/euisys/AssetAdapter.js",
+		"bin-debug/euisys/ThemeAdapter.js",
+		"bin-debug/list/ListItem.js",
+		"bin-debug/list/ListPanel.js",
+		"bin-debug/list/list2/List2Item.js",
+		"bin-debug/list/list2/List2Panel.js"
+	]
+}

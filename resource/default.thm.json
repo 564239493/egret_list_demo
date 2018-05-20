@@ -1,0 +1,10 @@
+{
+  "skins": {},
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/skins/ListItemSkin.exml",
+    "resource/skins/ListPanelSkin.exml",
+    "resource/skins/list2/List2ItemSkin.exml",
+    "resource/skins/list2/List2PanelSkin.exml"
+  ]
+}

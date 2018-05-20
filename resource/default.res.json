@@ -1,0 +1,15 @@
+{
+	"groups": [
+		{
+			"keys": "",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ListItemSkin" width="620" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" height="100%" x="0" y="0" fillColor="0xffffff" ellipseWidth="20"/>
+	<e:Label text="{data.index}" textColor="0x000000" fontFamily="SimHei" size="25" verticalCenter="0" x="5"/>
+	<e:Label id="txtMsg" text="{data.msg}" textColor="0x000000" fontFamily="SimHei" verticalCenter="0" x="153"/>
+	<e:Group right="0" verticalCenter="0">
+		<e:Label id="btnAdd" text="[增]" fontFamily="SimHei" textColor="0x00cc00" size="32" x="0" y="0"/>
+		<e:Label id="btnUpdate" text="[改]" fontFamily="SimHei" textColor="0x00CC00" size="32" x="10" y="10"/>
+		<e:Label id="btnDelete" text="[删]" fontFamily="SimHei" textColor="0x00CC00" size="32" x="20" y="20"/>
+		<e:Label id="btnChoose" text="[选]" fontFamily="SimHei" textColor="0x00CC00" size="32" x="30" y="30"/>
+		<e:layout>
+			<e:HorizontalLayout gap="10"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ListPanelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" height="100%" x="0" y="0" fillColor="0xeeeeee"/>
+	<e:Label id="txtTitle" text="List列表" y="50" textColor="0x000000" fontFamily="SimHei" left="20"/>
+	<e:Label id="btnGet" text="[获取选择]" y="50" fontFamily="SimHei" right="20" textColor="0x00cc00"/>
+	<e:Label id="btnAdd" text="[添加]" y="111" fontFamily="SimHei" textColor="0x00CC00" x="20"/>
+	<e:Scroller width="620" height="976" y="158" horizontalCenter="0">
+		<e:List id="dataList">
+			<e:layout>
+				<e:VerticalLayout gap="15"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>
